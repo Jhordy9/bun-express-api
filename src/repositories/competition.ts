@@ -1,5 +1,5 @@
 import { db } from '../../prisma';
-import { competitionCreateSchemaType } from '../validators/competion';
+import { competitionCreateSchemaType } from '../validators/competition';
 
 export const competionRepository = {
   createCompetition: (args: competitionCreateSchemaType) =>
